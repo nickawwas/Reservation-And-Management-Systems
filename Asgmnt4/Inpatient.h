@@ -1,5 +1,5 @@
 /*
- * Inpatient.hpp
+ * Inpatient.h
  * Author: Nicholas Kawwas
  * Completed: March, 2020
  * Purpose: Inpatient Class
