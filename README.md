@@ -1,5 +1,5 @@
 # Programming Methodology (C++)
-Demonstrate Proficiency in Backend Design through Implementing Management and Reservation Systems, Written in C++
+An Implementation of Reservation and Management Systems Using Backend Design, Written in C++
 
 ## Simple Problems
 Solved a Couple Simple Problems As an Introduction to C++
