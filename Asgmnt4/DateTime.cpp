@@ -20,7 +20,7 @@ DateTime::DateTime(int a1, int b1, int c, int d, int e, int f) : Date(a1, b1, c)
 
 //Destructor
 DateTime::~DateTime() {
-    //cout << "DateTime Object Deleted" << endl;
+    cout << "DateTime Object Deleted" << endl;
 }
 
 //Prints Date and Time
