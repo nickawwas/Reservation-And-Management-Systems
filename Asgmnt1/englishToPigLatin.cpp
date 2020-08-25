@@ -1,5 +1,5 @@
 /*
- * pigLatin.cpp
+ * englishToPigLatin.cpp
  * Author: Nicholas Kawwas
  * Completed: Jan, 2020
  * Purpose: Outputs Pig Latin from English
