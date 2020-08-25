@@ -1,5 +1,5 @@
 /*
- * Person.hpp
+ * Person.h
  * Author: Nicholas Kawwas
  * Completed: March, 2020
  * Purpose: Person Class
