@@ -15,9 +15,9 @@ using namespace std;
 #include "Passenger.hpp"
 
 Passenger::Passenger(string n,int m,int d,int y) {
-    name=n;
-    dob=new Date(m,d,y);
-    conum=0;
+    name = n;
+    dob = new Date(m,d,y);
+    conum = 0;
 }
 
 Passenger::Passenger(){
