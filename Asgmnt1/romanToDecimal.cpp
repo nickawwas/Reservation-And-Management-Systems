@@ -42,6 +42,7 @@ int main(){
             num += decimal[i];
         else
             num -= decimal[i];
-
+    
+    cout << num << endl;
     return num;
 }
