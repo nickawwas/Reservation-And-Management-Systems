@@ -34,7 +34,7 @@ Time::Time(const Time& t) {
 
 //Destructor
 Time::~Time() {
-    //cout << "Time Object Deleted" << endl;
+    cout << "Time Object Deleted" << endl;
 }
 
 //Returns Seconds
