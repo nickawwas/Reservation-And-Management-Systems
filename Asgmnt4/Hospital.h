@@ -1,5 +1,5 @@
 /*
- * Hospital.hpp
+ * Hospital.h
  * Author: Nicholas Kawwas
  * Completed: March, 2020
  * Purpose: Hospital Class
