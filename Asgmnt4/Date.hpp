@@ -1,8 +1,8 @@
 /*
- * Bed.hpp
+ * Date.hpp
  * Author: Nicholas Kawwas
  * Completed: March, 2020
- * Purpose: Bed Class
+ * Purpose: Date Class
 */
 
 #pragma once
