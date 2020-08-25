@@ -85,14 +85,14 @@ void ReservationManager::cancelReservationrequst(int c) {
 //Cancels Past reservation
 //Both A member function that deletes all reservation requests after the travel date.//A member function that deletes old reservation requests of a passenger.
 void ReservationManager::cancelpastReservation() {
-    for(int i=0;i<20;i++) {
+    for(int i = 0;i < 20;i++) {
         if(traveldate->translateDate() > reservation[i]->translateDate()) {
-            for(int k=0;k<4;k++){
+            for(int k = 0;k < 4;k++){
                 if((reservation[i]->passengers)->reserequest[k]==reservation[i]->getReservationnumber())
                    (reservation[i]->passengers)->reserequest[k]=0;
                 }
-        for(int j=i; j<20; j++)
-            reservation[i]=reservation[i+1];
+        for(int j = i; j < 20; j++)
+            reservation[i] = reservation[i + 1];
         }
     }
 }
@@ -101,40 +101,40 @@ void ReservationManager::cancelpastReservation() {
 // If SuccessfuI, Return reservation request number
 //  Reservation Object Should be Inserted
 //  Check if Passenger is in Passenger array
-//      If Not, Store in Passenger Area W/ Reservation Number
+// If Not, Store in Passenger Area W/ Reservation Number
 // Else Return 0, Reservation Object Should be Deleted
 void ReservationManager::successReservation(ReservationRequest*b) {
     int c1 = 0,c2 = 0,c3 = 0;
     
-    if(b->getStartstation()=="Montreal")
+    if(b->getStartstation() == "Montreal")
        c1=0;
-    else if(b->getStartstation()=="Dorval")
+    else if(b->getStartstation() == "Dorval")
         c1=1;
-    else if(b->getStartstation()=="Brockville")
+    else if(b->getStartstation() == "Brockville")
         c1=2;
-    else if(b->getStartstation()=="Kingston")
+    else if(b->getStartstation() == "Kingston")
         c1=3;
-    else if(b->getStartstation()=="Belleville")
+    else if(b->getStartstation() == "Belleville")
         c1=4;
 
-    if(b->getFinalstation()=="Dorval")
+    if(b->getFinalstation() == "Dorval")
         c2=1;
-    else if(b->getFinalstation()=="Brockville")
+    else if(b->getFinalstation() == "Brockville")
         c2=2;
-    else if(b->getFinalstation()=="Kingston")
+    else if(b->getFinalstation() == "Kingston")
         c2=3;
-    else if(b->getFinalstation()=="Belleville")
+    else if(b->getFinalstation() == "Belleville")
         c2=4;
-    else if(b->getFinalstation()=="Toronto")
+    else if(b->getFinalstation() == "Toronto")
         c2=5;
 
-    c3=b->getnumseat();
+    c3 = b->getnumseat();
 
-    int c4=0;
+    int c4 = 0;
 
-    for(int i=0;i<4;i++){
-        int c=1;
-        for(int j= c1;j < c2; j++)
+    for(int i = 0;i < 4;i++){
+        int c = 1;
+        for(int j = c1;j < c2; j++)
             if(table[i][j] == 0)
                 c++;
         
