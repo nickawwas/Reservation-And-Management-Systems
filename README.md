@@ -1,20 +1,27 @@
 # Programming Methodology (C++)
-A Graph Visualizer and Shortest Path Finder Using Dijkstra's Algorithm, Written in Processing.
-
-Covering Design
+Demonstrate Proficiency in Backend Design through Implementing Management and Reservation Systems, Written in C++
 
 ## Simple Problems
-...
+Solved a Couple Simple Problems As an Introduction to C++
+- romanToDecimal: Converts Roman Numbers to Decimal 
+- arithmeticCalc: Calculates Result of Arithmetic Expression w/o Class String
+- pigLatinToEnglish: Translates Pig Latin to English
+- englishToPigLatin: Translates English to Pig Latin 
 
 ## Train Passenger Reservation System
-Built a system to make reservations for trains
-...
-
+Built a System to Manage Reservations Of a Train Station
+- Keeps Track of Passenger Reservation Requests
+  - Assigns Reservation Request Numbers to Identify Passenger
+  - Stores Requested Travel Date Plus Start and Destination Stations
+- Keeps Track of Train Availability
+  - Updates Train Capacity As Reservations are Made
+  - Checks if Number of Seats Requested Are Available for Specific Train
+  
 ## Library Book Management System
 Built a System for the Management of a Library 
 - Keeps Track of Articles, Books, and Textbooks
   - Common Characteristics Represented in Reference Class
-  - Adding, Removing, Searching, ...
+  - Can Add, Remove, And Search Using Reference Manager 
 - Implemented in Static or Dynamic Allocation
 
 ## Hospital Management System
