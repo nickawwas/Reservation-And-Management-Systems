@@ -2,7 +2,7 @@
  * test.cpp
  * Author: Nicholas Kawwas
  * Completed: March, 2020
- * Purpose: Implemnts Library Book Manager System w/ Static or Dynamic Allocation 
+ * Purpose: Implemnts Library Book Management System w/ Static or Dynamic Allocation 
 */
 
 #pragma once
