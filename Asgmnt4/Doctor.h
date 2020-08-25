@@ -1,5 +1,5 @@
 /*
- * Doctor.hpp
+ * Doctor.h
  * Author: Nicholas Kawwas
  * Completed: March, 2020
  * Purpose: Doctor Class
