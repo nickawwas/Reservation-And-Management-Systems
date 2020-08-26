@@ -1,4 +1,4 @@
-# Programming Methodology (C++)
+# Reservation and Management Systems
 An Implementation of Reservation and Management Systems Using Backend Design, Written in C++
 
 ## Simple Problems
