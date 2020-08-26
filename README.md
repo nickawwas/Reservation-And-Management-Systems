@@ -27,8 +27,7 @@ Built a System for the Management of a Library
 ## Hospital Management System
 Built a System for the Management of a Hospital Serving Inpatients and Outpatients
 - Keeps Track of Inpatients 
-  - Charges Daily Rate
-  - Admits to Hospital and Assigns Bed
+  - Admits to Hospital and Assigns Bed (Charges Daily Rate)
   - Stores Admission & Discharge Dates w/ Doctor Who Treated Them
 - Keeps Track of Outpatients 
   - Charges Fixed Rate
